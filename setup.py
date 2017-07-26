@@ -2,13 +2,13 @@ import setuptools
 
 if __name__ == "__main__":
     setuptools.setup(
-        name='cool_project',
+        name='cuddly_octo_invention',
         version="0.1.1",
-        description='SCF program construction',
-        author='Kevin Basemann',
-        author_email='kdbasema@iastate.edu',
-        url="https://github.com/kdbasema/QM_2017_SSS_Team4",
-        license='BSD-3C',
+        description='A starting template for Python programs',
+        author='Prachi Sharma',
+        author_email='sharm387@umn.edu',
+        url="https://github.com/sharm387/cuddly-octo-invention.git",
+        license='BSD-2C',
         packages=setuptools.find_packages(),
         install_requires=[
             'numpy>=1.7',
@@ -43,4 +43,3 @@ if __name__ == "__main__":
         ],
         zip_safe=True,
     )
-
