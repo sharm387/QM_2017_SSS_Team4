@@ -39,4 +39,3 @@ after_success:
 
 notifications:
   email: false
-Add Comment
