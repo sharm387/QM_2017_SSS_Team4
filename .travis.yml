@@ -32,7 +32,7 @@ before_script:
 
 script:
   - pip install -e .
-  - py.test -v
+  - py.test -v --cov=./
 
 notifications:
   email: false
