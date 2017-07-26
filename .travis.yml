@@ -31,7 +31,10 @@ before_script:
   - python -V
 
 script:
-  - py.test -v
+  - pip install -e
+  - py.test -v --cov=./
+after_success:
+  - codecov
 
 notifications:
   email: false
