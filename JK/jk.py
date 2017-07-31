@@ -2,7 +2,7 @@ import numpy as np
 import psi4
 
 
-def jk(mol,C,D):
+def jk(mol,C,D,nel):
     # Get basital basis from a wavefunction
     # bas = wfn.basisset()
     bas = psi4.core.BasisSet.build(mol, target="aug-cc-pVDZ")
@@ -26,7 +26,7 @@ def jk(mol,C,D):
     #compute Coulomb integral (J)
     J= np.einsum("lsp,p->ls", Pls.transpose(1,2,0), Xp)
     #exchange integral matrix
-    eita_1 = np.einsum("lmP,pn->Pmp", Pls.transpose(1,2,0),C[:,:5])
+    eita_1 = np.einsum("lmP,pn->Pmp", Pls.transpose(1,2,0),C[:,:nel])
     eita_2 = np.einsum("Pnl,pm->Pnp", Pls,C[:,:5])
     K = np.einsum("Pmp,Pnp->mn",eita_1,eita_2)
     return J, K

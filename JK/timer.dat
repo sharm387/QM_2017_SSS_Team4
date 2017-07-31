@@ -1,0 +1,52 @@
+
+Host: DESKTOP-PFNQF4C
+
+Timers On : Mon Jul 31 12:28:27 2017
+Timers Off: Mon Jul 31 12:28:36 2017
+
+Wall Time:        9.67 seconds
+
+Total PK formation time     :      0.100u      0.000s      0.068w      1 calls
+HF: Form H                  :      0.000u      0.000s      0.021w      1 calls
+HF: Form S/X                :      0.000u      0.017s      0.001w      1 calls
+HF: Guess                   :      0.100u      0.000s      0.070w      1 calls
+SAD Guess                   :      0.100u      0.000s      0.068w      1 calls
+HF: Form G                  :      0.000u      0.000s      0.006w      9 calls
+JK: D                       :      0.000u      0.000s      0.000w      9 calls
+JK: USO2AO                  :      0.000u      0.000s      0.001w      9 calls
+JK: JK                      :      0.000u      0.000s      0.004w      9 calls
+PK computes JK              :      0.000u      0.000s      0.004w      9 calls
+JK: AO2USO                  :      0.000u      0.000s      0.000w      9 calls
+HF: Form F                  :      0.000u      0.000s      0.000w      9 calls
+HF: DIIS                    :      0.000u      0.000s      0.009w      9 calls
+DIISManager::add_entry      :      0.000u      0.000s      0.006w      8 calls
+DIISManager::extrapolate    :      0.000u      0.000s      0.002w      7 calls
+DIISManager::extrapolate: bMatrix setup:      0.000u      0.000s      0.001w      7 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:      0.000u      0.000s      0.000w      7 calls
+DIISManager::extrapolate: form new data:      0.000u      0.000s      0.001w      7 calls
+HF: Form C                  :      0.000u      0.000s      0.001w      9 calls
+HF: Form D                  :      0.000u      0.000s      0.000w      9 calls
+
+-----------------------------------------------------------
+Total PK formation time     :      0.100u      0.000s      0.068w      1 calls
+HF: Form H                  :      0.000u      0.000s      0.021w      1 calls
+HF: Form S/X                :      0.000u      0.017s      0.001w      1 calls
+HF: Guess                   :      0.100u      0.000s      0.070w      1 calls
+| SAD Guess                 :      0.100u      0.000s      0.068w      1 calls
+HF: Form G                  :      0.000u      0.000s      0.006w      9 calls
+| JK: D                     :      0.000u      0.000s      0.000w      9 calls
+| JK: USO2AO                :      0.000u      0.000s      0.001w      9 calls
+| JK: JK                    :      0.000u      0.000s      0.004w      9 calls
+| | PK computes JK          :      0.000u      0.000s      0.004w      9 calls
+| JK: AO2USO                :      0.000u      0.000s      0.000w      9 calls
+HF: Form F                  :      0.000u      0.000s      0.000w      9 calls
+HF: DIIS                    :      0.000u      0.000s      0.009w      9 calls
+| DIISManager::add_entry    :      0.000u      0.000s      0.006w      8 calls
+| DIISManager::extrapolate  :      0.000u      0.000s      0.002w      7 calls
+| | DIISManager::extrapolate: bMatrix setup:      0.000u      0.000s      0.001w      7 calls
+| | DIISManager::extrapolate: bMatrix pseudoinverse:      0.000u      0.000s      0.000w      7 calls
+| | DIISManager::extrapolate: form new data:      0.000u      0.000s      0.001w      7 calls
+HF: Form C                  :      0.000u      0.000s      0.001w      9 calls
+HF: Form D                  :      0.000u      0.000s      0.000w      9 calls
+
+***********************************************************

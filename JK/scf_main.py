@@ -72,7 +72,7 @@ for iteration in range(25):
     # Jsum = np.sum(g * D, axis=(2, 3))
 #    J = np.einsum("pqrs,rs->pq", g, D)
 #    K = np.einsum("prqs,rs->pq", g, D)
-    J, K = jk.jk(mol, C, D)
+    J, K = jk.jk(mol, C, D,nel)
     F_new = H + 2.0 * J - K
 
     # conditional iteration > start_damp
